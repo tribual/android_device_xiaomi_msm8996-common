@@ -142,6 +142,7 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
+    init.panel_info.sh \
     fstab.qcom \
     init.qcom.rc \
     init.qcom.sh \
