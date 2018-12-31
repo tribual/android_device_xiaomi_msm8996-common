@@ -26,12 +26,16 @@
     <string name="device_doze_title">Ambient display</string>
 
     <!-- camera -->
+<!-- comment out for now
     <string name="camera_title">Camera</string>
     <string name="camera_hal3_title">Enable Camera2 API</string>
+-->
 
     <!-- s2s -->
+<!-- comment out for now
     <string name="s2s_title">Sweep to sleep</string>
     <string name="s2s_vib_strength_title_head">Sweep2sleep vibration</string>
+-->
 
     <!-- Kcal -->
     <string name="kcal_title">Display color</string>
