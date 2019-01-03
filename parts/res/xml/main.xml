@@ -29,10 +29,6 @@
                  android:fragment="org.omnirom.device.DisplayCalibration"
                  android:summary="@string/kcal_summary"
                  android:title="@string/kcal_title" />
-        <SwitchPreference
-            android:key="taptowake"
-            android:summary="@string/taptowake_summary"
-            android:title="@string/taptowake_title" />
         <Preference
             android:key="device_doze"
             android:persistent="false"
@@ -55,15 +51,6 @@
             android:entries="@array/spectrum_profiles"
             android:entryValues="@array/spectrum_values"
             android:dialogTitle="@string/spectrum_dialogTitle" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="camera"
-        android:title="@string/camera_title">
-        <SwitchPreference
-            android:key="hal3"
-            android:defaultValue="true"
-            android:title="@string/camera_hal3_title" />
     </PreferenceCategory>
 
     <PreferenceCategory
