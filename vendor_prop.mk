@@ -97,7 +97,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.enable_vds=1 \
     persist.sys.wfd.virtual=0 \
     ro.opengles.version=196610 \
-    ro.sf.lcd_density=480 \
+    ro.sf.lcd_density=420 \
     sdm.debug.disable_rotator_split=1 \
     sdm.debug.disable_skip_validate=1 \
     sdm.perf_hint_window=50
@@ -127,8 +127,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # Priv-app permissions whitelist
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.control_privapp_permissions=enforce
+# PRODUCT_PROPERTY_OVERRIDES += \
+#     ro.control_privapp_permissions=enforce
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
