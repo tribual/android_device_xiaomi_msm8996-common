@@ -178,7 +178,8 @@ PRODUCT_COPY_FILES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    XiaomiDoze \
+    XiaomiParts
 
 # DRM
 PRODUCT_PACKAGES += \
