@@ -99,6 +99,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0 \
     persist.sys.wfd.nohdcp=1 \
+    debug.sf.enable_hwc_vds=1 \
     ro.opengles.version=196610 \
     ro.sf.lcd_density=420 \
     sdm.debug.disable_rotator_split=1 \
